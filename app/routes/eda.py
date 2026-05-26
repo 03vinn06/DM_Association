@@ -6,7 +6,7 @@ from flask_login import login_required, current_user
 from app.models import Dataset
 import pandas as pd
 import matplotlib
-matplotlib.use('Agg')
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
